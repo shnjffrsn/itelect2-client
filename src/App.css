@@ -128,3 +128,35 @@ body {
   border-radius: 999px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
+
+.login-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.login-form input {
+  flex: 1;
+  padding: 8px 10px;
+  font: inherit;
+}
+
+.login-form button,
+.who button {
+  padding: 8px 14px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.who {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error {
+  width: 100%;
+  margin: 0;
+  color: #d03b2f;
+}
